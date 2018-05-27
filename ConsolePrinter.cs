@@ -13,5 +13,12 @@ namespace ConsolePrinters {
             }
             System.Console.WriteLine(backwordString);
         }
+
+        public static void printArray(string[] messages){
+            foreach(string word in messages){
+                 System.Console.WriteLine(word);
+            }
+
+        }
     }
 }
