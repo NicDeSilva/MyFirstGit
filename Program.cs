@@ -1,4 +1,5 @@
 ﻿using System;
+using ConsolePrinters;
 
 namespace MyFirstGit
 {
@@ -6,7 +7,8 @@ namespace MyFirstGit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Git!");
+            Printers.runAllPrinters();
+            // Console.WriteLine("Hello Git!");
         }
     }
 }
