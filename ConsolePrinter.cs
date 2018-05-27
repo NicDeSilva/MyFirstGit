@@ -18,7 +18,12 @@ namespace ConsolePrinters {
             foreach(string word in messages){
                  System.Console.WriteLine(word);
             }
+        }
 
+        public static void runAllPrinters() {
+            Printers.print("Hello World!");
+            Printers.printBackwards("Hello World!");
+            Printers.printArray(new string[]{"Hello", "World", "!"});
         }
     }
 }
